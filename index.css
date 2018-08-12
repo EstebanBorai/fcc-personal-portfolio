@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald|Source+Sans+Pro');
+@import url('styles/aside.css');
+@import url('styles/main.css');
+
+:root {
+  --aside: #F5F5F5;
+  --soft-text: #E7E7E7;
+  --text: #424242;
+}
+
+body {
+  color: var(--text);
+  margin: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+  display: grid;
+  grid-template-columns: 270px auto;
+  position: relative;
+}
+
+a {
+  color: #AA0505;
+  text-decoration: none;
+}
