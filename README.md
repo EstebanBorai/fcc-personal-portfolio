@@ -1,6 +1,11 @@
 # fcc-personal-portfolio
 🏕 freeCodeCamp's Personal Portfolio Project - Part of the "Responsive Web Design Certification"
 
+### Important Note:
+The layout and design of this *freeCodeCamp Portfolio Website* is based on the [Joel Spolsky](https://www.joelonsoftware.com/)'s website "Joel On Software". Joel Spolsky is one of the two founders
+of [Stack Overflow](https://stackoverflow.com/) with [Jeff Atwood](https://en.wikipedia.org/wiki/Jeff_Atwood).
+Consider visiting their websites.
+
 ### Objective: 
 Build a CodePen.io app that is functionally similar to this: https://codepen.io/freeCodeCamp/full/zNBOYG.
 Fulfill the below user stories and get all of the tests to pass. Give it your own personal style.
