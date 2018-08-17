@@ -1,24 +1,29 @@
-@import url('https://fonts.googleapis.com/css?family=Oswald|Source+Sans+Pro');
-@import url('styles/aside.css');
+@import url('https://fonts.googleapis.com/css?family=Zilla+Slab');
+@import url('styles/header.css');
 @import url('styles/main.css');
 
 :root {
-  --aside: #F5F5F5;
-  --soft-text: #E7E7E7;
-  --text: #424242;
+  --background: #ffffff;
+  --aside: #eeeeee;
+  --text: #111111;
+  --navbar: #48BFA9;
 }
 
 body {
-  color: var(--text);
   margin: 0;
-  font-family: 'Source Sans Pro', sans-serif;
-  display: grid;
-  grid-template-columns: 270px auto;
-  position: relative;
+  padding: 0;
+  font-family: 'Zilla Slab', sans-serif;
+  color: var(--text);
+}
+
+section {
+  padding: 1.2rem 0.5rem 0 0.5rem;
+  box-sizing: border-box;
   height: 100vh;
 }
 
-a {
-  color: #AA0505;
-  text-decoration: none;
+@media only screen and (max-width: 500px) {
+  body {
+    font-size: 14px;
+  }
 }
