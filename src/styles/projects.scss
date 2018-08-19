@@ -1,0 +1,51 @@
+#projects-list {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  height: 100%;
+  width: 100%;
+  
+
+  .project-tile {
+    border: 1px solid #efefef;
+    border-radius: 4px;
+    padding: 0.5rem;
+    box-sizing: border-box;
+    margin: 0.5rem;
+    display: inline-block;
+    width: 45%;
+    height: 160px;
+    position: relative;
+
+    h3 {
+      margin: 0;
+      padding: 0.5rem;
+      box-sizing: border-box;
+    }
+
+    .project-data {
+      display: flex;
+      flex-direction: row-reverse;
+      width: 100%;
+      justify-content: space-between;
+      padding: 0.4rem 1rem;
+      box-sizing: border-box;
+      position: absolute;
+      bottom: 0;
+
+      .project-links {
+        display: flex;
+        list-style-type: none;
+
+        li {
+          display: inline-block;
+          margin: 0 0.5rem;
+        }
+      }
+    }
+  }
+
+  .project-options {
+
+  }
+}

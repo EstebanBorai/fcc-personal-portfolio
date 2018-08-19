@@ -5,10 +5,23 @@
 # fcc-personal-portfolio
 🏕 freeCodeCamp's Personal Portfolio Project - Part of the "Responsive Web Design Certification"
 
-### Important Note:
-The layout and design of this *freeCodeCamp Portfolio Website* is based on the [Joel Spolsky](https://www.joelonsoftware.com/)'s website "Joel On Software". Joel Spolsky is one of the two founders
-of [Stack Overflow](https://stackoverflow.com/) with [Jeff Atwood](https://en.wikipedia.org/wiki/Jeff_Atwood).
-Consider visiting their websites.
+### Development
+To run this project locally in your machine, you will need to run the following commands from your terminal/console application.
+```
+git clone https://github.com/estebanborai/fcc-tribute-page.git
+cd fcc-tribute-page
+npm i && npm start
+```
+
+### Technologies
+In order to follow the freeCodeCamp Curriculum I'm making use of the following set of technologies.
+- Gulp.js
+- HTML
+- Sass
+- JavaScript
+- jQuery
+
+**NOTE: The source code is partially a mess when it comes to create elements from a resource**
 
 ### Objective: 
 Build a CodePen.io app that is functionally similar to this: https://codepen.io/freeCodeCamp/full/zNBOYG.

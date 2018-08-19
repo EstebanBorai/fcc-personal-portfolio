@@ -5,48 +5,68 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Esteban Borai | Personal Portfolio</title>
-  <link rel="stylesheet" href="index.css" type="text/css" />
+  <link rel="stylesheet" href="bundle/index.css" type="text/css" />
   <link rel="shortcut icon" type="image/png" href="https://raw.githubusercontent.com/estebanborai/fcc-personal-portfolio/master/assets/favicon.png"/>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/css?family=Zilla+Slab" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet" />
 </head>
 <body>
+  <header>
+    <span>Hello, World.</span>
+    <nav>
+      <ul>
+        <li>
+          <a href="#welcome-section">Home</a>
+        </li>
+        <li>
+          <a href="#projects">Projects</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <aside>
+    <img src="assets/6916454e7b486ef435d1308267e46f78.jpeg" alt="avatar" id="avatar" />
+    <span>
+      Esteban Borai
+    </span>
+    <p>
+      Hi, my name is Esteban Borai. I'm a Front-End Developer, also interested in Back-End Development 
+      using JavaScript and learning C#. This is my 
+      <a href="https://www.freecodecamp.org/" target="_blank" rel="noopener">freeCodeCamp</a> Portfolio Website.
+    </p>
+    <ul id="social-links">
+      <li>
+        <a id="gh-link" href="https://github.com/estebanborai" target="_blank" rel="noopener">
+          <i class="fab fa-github fa-lg"></i>
+        </a>
+      </li>
+      <li>
+        <a id="fcc-link" href="https://www.freecodecamp.org/esteban.borai" target="_blank" rel="noopener">
+          <i class="fab fa-free-code-camp fa-lg"></i>
+        </a>
+      </li>
+      <li>
+        <a id="tw-link" href="https://twitter.com/estebanborai" target="_blank" rel="noopener">
+          <i class="fab fa-twitter fa-lg"></i>
+        </a>
+      </li>
+    </ul>
+  </aside>
   <main>
-    <header>
-      <h2>Esteban Borai</h2>
-      <nav id="navbar">
-        <ul>
-          <a href="#welcome-section"><li>About</li></a>
-          <a href="#projects"><li>Projects</li></a>
-        </ul>
-      </nav>
-    </header>
     <section id="welcome-section">
-      <h1>Esteban Borai, FreeCodeCamp Portfolio</h1>
-      <p>Computer Science Enthusiast 👨‍💻. Front-End Developer using React.js ⚛.</p>
-    </section>
-    <section id="about">
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab veritatis reiciendis atque a velit doloremque corrupti 
-      qui obcaecati nemo repudiandae non vel maiores eaque, iure facere corporis dolorem libero culpa.
+      <h1>Hello, World. freeCodeCamp Portfolio Website.</h1>
     </section>
     <section id="projects">
-      <article class="project-tile">
-        <h3>Tribute Page</h3>
-        <a href="https://estebanborai.github.io/fcc-tribute-page/">Visit</a>
-      </article>
+      <h2>Projects</h2>
+      <ul id="projects-list"></ul>
     </section>
-    <footer>
-        <ul id="social">
-            <li><i class="fab fa-github"></i></li>
-            <li>
-              <a href="https://www.freecodecamp.org/esteban.borai" id="profile-link" target="_blank">
-                <i class="fab fa-free-code-camp"></i>
-              </a>
-            </li>
-            <li><i class="fab fa-twitter"></i></li>
-          </ul>
-      Made with Love &amp; Coffee by <a href="https://github.com/estebanborai" target="_blank">Esteban Borai</a>
-    </footer>
   </main>
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+  integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+  crossorigin="anonymous"></script>
   <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  <script src="bundle/index.js"></script>
 </body>
 </html>

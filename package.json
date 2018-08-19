@@ -1,0 +1,30 @@
+{
+  "name": "fcc-personal-portfolio",
+  "version": "1.0.0",
+  "description": "freeCodeCamp's Personal Portfolio Project - Part of the \"Responsive Web Design Certification\"",
+  "main": "gulpfile.js",
+  "scripts": {
+    "dist": "gulp",
+    "start": "gulp watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/estebanborai/fcc-personal-portfolio.git"
+  },
+  "author": "Esteban Borai <estebanborai@outlook.com> (https://github.com/estebanborai)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/estebanborai/fcc-personal-portfolio/issues"
+  },
+  "homepage": "https://github.com/estebanborai/fcc-personal-portfolio#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "eslint": "^5.4.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^7.0.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^4.0.1"
+  },
+  "dependencies": {}
+}
