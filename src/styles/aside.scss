@@ -32,8 +32,7 @@ aside {
 }
 
 #social-links {
-  background: #222222;
-  color: #ffffff;
+  background: none;
   list-style-type: none;
   margin: 0;
   padding: 0.4rem 1rem;
@@ -49,20 +48,25 @@ aside {
     margin: 0 1rem;
 
     a {
-      color: #ffffff;
+      color: #222222;
       text-decoration: none;
       display: inline-block;
+
+      &:hover {
+        background: transparent;
+      }
     }
   }
 }
 
 #gh-link {
   &:hover {
-    color: #dddddd;
+    color: #777777;
+    ;
   }
 }
 
-#fcc-link {
+#profile-link {
   &:hover {
     color: #006400;
   }
@@ -70,7 +74,7 @@ aside {
 
 #tw-link {
   &:hover {
-    color: #1da1f2;
+    color: #086097;
   }
 }
 

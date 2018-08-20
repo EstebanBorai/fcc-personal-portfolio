@@ -26,8 +26,7 @@ aside {
   width: 200px; }
 
 #social-links {
-  background: #222222;
-  color: #ffffff;
+  background: none;
   list-style-type: none;
   margin: 0;
   padding: 0.4rem 1rem;
@@ -41,18 +40,20 @@ aside {
   #social-links li {
     margin: 0 1rem; }
     #social-links li a {
-      color: #ffffff;
+      color: #222222;
       text-decoration: none;
       display: inline-block; }
+      #social-links li a:hover {
+        background: transparent; }
 
 #gh-link:hover {
-  color: #dddddd; }
+  color: #777777; }
 
-#fcc-link:hover {
+#profile-link:hover {
   color: #006400; }
 
 #tw-link:hover {
-  color: #1da1f2; }
+  color: #086097; }
 
 @media (max-width: 1000px) {
   aside {
@@ -68,7 +69,8 @@ header {
   display: flex;
   align-items: center;
   padding: 0 1rem;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  z-index: 1000; }
   header span {
     margin: 0;
     display: inline-block;
@@ -109,27 +111,27 @@ a {
 main {
   max-height: calc(100vh - 30px);
   margin-left: 230px;
-  margin-top: 30px;
-  overflow-y: auto; }
+  overflow-y: auto;
+  margin-top: 30px; }
   main section {
-    min-height: calc(100vh - 30px);
+    min-height: 100vh;
     height: 100%;
     max-width: calc(100vw - 230px);
     padding: 0.5rem;
+    padding-top: 30px;
     box-sizing: border-box; }
     main section h1, main section h2 {
-      margin: 0; }
+      margin: 0 0 1rem 0; }
 
 @media (max-width: 1000px) {
   main {
     height: 100%;
     max-height: none;
-    margin-top: 30px;
     margin-left: 0;
-    width: 100%; }
+    width: 100% !important;
+    max-width: none; }
     main section {
       height: 100%;
-      min-height: none;
       max-width: none; } }
 
 #projects-list {
@@ -151,7 +153,15 @@ main {
     #projects-list .project-tile h3 {
       margin: 0;
       padding: 0.5rem;
-      box-sizing: border-box; }
+      box-sizing: border-box;
+      text-align: left; }
+    #projects-list .project-tile .project-desc {
+      font-size: 0.9rem;
+      padding: 0.5rem 1rem;
+      box-sizing: border-box;
+      width: 100%;
+      display: inline-block;
+      text-align: left; }
     #projects-list .project-tile .project-data {
       display: flex;
       flex-direction: row-reverse;
@@ -167,3 +177,27 @@ main {
         #projects-list .project-tile .project-data .project-links li {
           display: inline-block;
           margin: 0 0.5rem; }
+
+@media (max-width: 1000px) {
+  #projects-list {
+    margin: 0;
+    padding: 0;
+    text-align: center; }
+    #projects-list .project-tile {
+      width: 90%; } }
+
+@media (max-width: 700px) {
+  #projects-list {
+    margin: 0;
+    padding: 0; }
+    #projects-list .project-tile {
+      width: 100%;
+      margin: 0;
+      margin-bottom: 1rem;
+      display: flex;
+      flex-direction: row;
+      height: 90px; }
+      #projects-list .project-tile * {
+        box-sizing: border-box; }
+      #projects-list .project-tile .project-desc {
+        display: none; } }

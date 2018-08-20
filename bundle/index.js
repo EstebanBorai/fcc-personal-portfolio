@@ -43,7 +43,7 @@ $(document).ready(function () {
     return res.json();
   }).then(function (json) {
     return json.filter(function (repo) {
-      if (repo.name.indexOf('fcc') !== -1) {
+      if (repo.name.indexOf('fcc') !== -1 && repo.language) {
         var projectTile = $('<li />');
         projectTile.addClass('project-tile');
         // Create project title
@@ -69,3 +69,22 @@ $(document).ready(function () {
     $('#portfolio-error').text(error);
   });
 });
+'use strict';
+
+if (document.documentElement.scrollIntoView) {
+  document.querySelectorAll('a[href^="#"]').forEach(function (anchor) {
+    anchor.addEventListener('click', function (e) {
+      e.preventDefault();
+      document.querySelector(this.getAttribute('href')).scrollIntoView({
+        behavior: 'smooth'
+      });
+    });
+  });
+} else {
+  $(document).on('click', 'a[href^="#"]', function (event) {
+    event.preventDefault();
+    $('html, body').animate({
+      scrollTop: $($.attr(this, 'href')).offset().top
+    }, 500);
+  });
+}

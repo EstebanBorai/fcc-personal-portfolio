@@ -23,18 +23,19 @@ a {
 main {
   max-height: calc(100vh - 30px);
   margin-left: 230px;
-  margin-top: 30px;
   overflow-y: auto;
+  margin-top: 30px;
 
   section {
-    min-height: calc(100vh - 30px);
+    min-height: 100vh;
     height: 100%;
     max-width: calc(100vw - 230px);
     padding: 0.5rem;
+    padding-top: 30px;
     box-sizing: border-box;
 
     h1, h2 {
-      margin: 0;
+      margin: 0 0 1rem 0;
     }
   }
 }
@@ -43,13 +44,12 @@ main {
   main {
     height: 100%;
     max-height: none;
-    margin-top: 30px;
     margin-left: 0;
-    width: 100%;
+    width: 100% !important;
+    max-width: none;
 
     section {
       height: 100%;
-      min-height: none;
       max-width: none;
     }
   }

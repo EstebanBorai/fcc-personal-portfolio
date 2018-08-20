@@ -40,7 +40,7 @@ $(document).ready(() => {
   fetch('https://api.github.com/users/estebanborai/repos')
   .then(res => res.json())
   .then(json => json.filter(repo => {
-    if (repo.name.indexOf('fcc') !== -1) {
+    if (repo.name.indexOf('fcc') !== -1 && repo.language) {
       const projectTile = $('<li />');
       projectTile.addClass('project-tile');
       // Create project title
