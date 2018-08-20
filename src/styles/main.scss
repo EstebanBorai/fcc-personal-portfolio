@@ -20,37 +20,15 @@ a {
   }
 }
 
-main {
-  max-height: calc(100vh - 30px);
-  margin-left: 230px;
-  overflow-y: auto;
-  margin-top: 30px;
+section {
+  min-height: 100vh;
+  height: 100%;
+  padding: 0.5rem;
+  padding-top: 30px;
+  box-sizing: border-box;
+  width: 100%;
 
-  section {
-    min-height: 100vh;
-    height: 100%;
-    max-width: calc(100vw - 230px);
-    padding: 0.5rem;
-    padding-top: 30px;
-    box-sizing: border-box;
-
-    h1, h2 {
-      margin: 0 0 1rem 0;
-    }
-  }
-}
-
-@media (max-width: 1000px) {
-  main {
-    height: 100%;
-    max-height: none;
-    margin-left: 0;
-    width: 100% !important;
-    max-width: none;
-
-    section {
-      height: 100%;
-      max-width: none;
-    }
+  h1, h2 {
+    margin: 0 0 1rem 0;
   }
 }

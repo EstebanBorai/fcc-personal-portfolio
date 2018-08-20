@@ -14,6 +14,7 @@
     margin: 0.5rem;
     display: inline-block;
     width: 45%;
+    max-width: 420px;
     height: 160px;
     position: relative;
 
@@ -25,6 +26,7 @@
     }
 
     .project-desc {
+      font-family: 'Noto Sans', sans-serif;
       font-size: 0.9rem;
       padding: 0.5rem 1rem;
       box-sizing: border-box;
@@ -54,43 +56,19 @@
       }
     }
   }
-
-  .project-options {
-
-  }
 }
 
-@media (max-width: 1000px) {
+@media only screen and (max-width: 800px) {
   #projects-list {
-    margin: 0;
-    padding: 0;
-    text-align: center;
-
     .project-tile {
-      width: 90%;
-    }
-  }
-}
-
-@media (max-width: 700px) {
-  #projects-list {
-    margin: 0;
-    padding: 0;
-
-    .project-tile {
-      width: 100%;
       margin: 0;
       margin-bottom: 1rem;
-      display: flex;
-      flex-direction: row;
-      height: 90px;
-
-      * {
-        box-sizing: border-box;
-      }
+      width: 100%;
+      max-width: none;
+      height: 190px;
 
       .project-desc {
-        display: none;
+        font-size: 0.9rem;
       }
     }
   }

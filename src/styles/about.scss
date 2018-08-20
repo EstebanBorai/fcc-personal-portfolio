@@ -1,0 +1,70 @@
+#avatar {
+  width: 100%;
+  padding: 0.5rem;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  img {
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+  }
+
+  span {
+    display: inline-block;
+    font-weight: 600;
+    font-size: 1.5rem;
+    padding: 0.7rem 0;
+    box-sizing: border-box;
+  }
+}
+
+#resume {
+  width: 60%;
+  margin: 0 auto;
+  padding: 0.5rem;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+#social-links {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem;
+  margin: 0;
+  box-sizing: border-box;
+
+  li {
+    margin: 0 1rem;
+
+    a {
+      &:hover {
+        background: transparent;
+      }
+    }
+  }
+}
+
+#gh-link {
+  &:hover {
+    color: #777777;
+    ;
+  }
+}
+
+#profile-link {
+  &:hover {
+    color: #006400;
+  }
+}
+
+#tw-link {
+  &:hover {
+    color: #086097;
+  }
+}

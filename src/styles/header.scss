@@ -16,6 +16,15 @@ header {
     display: inline-block;
     font-size: 1.2rem;
     font-weight: 600;
+
+    a {
+      color: #ffffff;
+
+      &:hover {
+        color: #222222;
+        background: transparent;
+      }
+    }
   }
 
   nav {
@@ -40,5 +49,11 @@ header {
         }
       }
     }
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  body {
+    font-size: 14px;
   }
 }

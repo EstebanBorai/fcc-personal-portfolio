@@ -15,13 +15,7 @@ npm i && npm start
 
 ### Technologies
 In order to follow the freeCodeCamp Curriculum I'm making use of the following set of technologies.
-- Gulp.js
-- HTML
-- Sass
-- JavaScript
-- jQuery
-
-**NOTE: The source code is partially a mess when it comes to create elements from a resource**
+<img height="90" alt="Tech Stack" src="https://raw.githubusercontent.com/estebanborai/fcc-personal-portfolio/master/assets/tech-stack.png" />
 
 ### Objective: 
 Build a CodePen.io app that is functionally similar to this: https://codepen.io/freeCodeCamp/full/zNBOYG.
@@ -44,3 +38,6 @@ You can use HTML, JavaScript, and CSS to complete this project. Plain CSS is rec
 You can build your project by forking this CodePen pen. Or you can use this CDN link to run the tests in any environment you like: https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js
 Once you're done, submit the URL to your working project with all its tests passing.
 Remember to use the Read-Search-Ask method if you get stuck.
+
+### The CodePen Project
+[Visit the CodePen Project!](https://codepen.io/eborai/pen/dqyZbP)
