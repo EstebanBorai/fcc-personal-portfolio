@@ -43,25 +43,20 @@ $(document).ready(() => {
     if (repo.name.indexOf('fcc') !== -1 && repo.language) {
       const projectTile = $('<li />');
       projectTile.addClass('project-tile');
-      // Create project title
       const title = createProjectTitle(repo.name);
       projectTile.append(title);
-      // Create project description
       const description = $('<span class="project-desc" />');
       description.text(repo.description);
       projectTile.append(description);
       const dataContainer = $('<div class="project-data"/>');
-      // Create project links list
       const links = createProjectLinks([
         { link: repo.homepage, icon: 'fa fa-link' },
         { link: repo.html_url, icon: 'fab fa-github-alt' }
       ]);
       dataContainer.append(links);
-      // Create project predominant language logo
       const logo = createProjectLanguage(repo.language);
       dataContainer.append(logo);
       projectTile.append(dataContainer);
-      // Append block to list
       $('#projects-list').append(projectTile);
     }
   }))

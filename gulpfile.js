@@ -4,6 +4,7 @@ const gulp = require('gulp');
 const concat = require('gulp-concat');
 const sass = require('gulp-sass');
 const babel = require('gulp-babel');
+const uglify = require('gulp-uglify');
 
 gulp.task('sass', function() {
 return gulp.src('src/styles/*.scss')
@@ -22,6 +23,7 @@ gulp.task('babel', () =>
 			presets: ['babel-preset-env']
     }))
     .pipe(concat('index.js'))
+    .pipe(uglify())
 		.pipe(gulp.dest('bundle'))
 );
 

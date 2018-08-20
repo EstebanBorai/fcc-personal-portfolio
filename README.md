@@ -8,8 +8,8 @@
 ### Development
 To run this project locally in your machine, you will need to run the following commands from your terminal/console application.
 ```
-git clone https://github.com/estebanborai/fcc-tribute-page.git
-cd fcc-tribute-page
+git clone https://github.com/estebanborai/fcc-personal-portfolio.git
+cd fcc-personal-portfolio
 npm i && npm start
 ```
 
