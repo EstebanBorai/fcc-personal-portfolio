@@ -104,15 +104,23 @@ a {
     background: #222222;
     color: #ffffff; }
 
+h1, h2 {
+  margin: 0;
+  margin-top: 35px;
+  padding-bottom: 1rem; }
+
 section {
-  min-height: 100vh;
+  min-height: calc(100vh - 30px);
   height: 100%;
   padding: 0.5rem;
   padding-top: 30px;
   box-sizing: border-box;
   width: 100%; }
-  section h1, section h2 {
-    margin: 0 0 1rem 0; }
+
+@media only screen and (max-width: 700px) {
+  section {
+    font-size: 14px;
+    min-height: calc(100vh - 30px); } }
 
 #projects-list {
   padding: 0;
@@ -186,7 +194,8 @@ section {
   font-size: 2rem; }
   #welcome-section h1 {
     margin: 0;
-    display: inline-block; }
+    display: inline-block;
+    padding: 0; }
 
 #typing-container {
   max-width: 70%;
