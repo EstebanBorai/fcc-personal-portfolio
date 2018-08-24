@@ -150,7 +150,8 @@ section {
       padding: 0.5rem 1rem;
       box-sizing: border-box;
       width: 100%;
-      display: inline-block;
+      display: flex;
+      flex-direction: column;
       text-align: left; }
     #projects-list .project-tile .project-data {
       display: flex;
