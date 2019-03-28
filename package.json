@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/estebanborai/fcc-personal-portfolio.git"
+    "url": "git+https://github.com/gitpullsh/fcc-personal-portfolio.git"
   },
-  "author": "Esteban Borai <estebanborai@outlook.com> (https://github.com/estebanborai)",
+  "author": "Esteban Borai <estebanborai@outlook.com> (https://github.com/gitpullsh)",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/estebanborai/fcc-personal-portfolio/issues"
+    "url": "https://github.com/gitpullsh/fcc-personal-portfolio/issues"
   },
-  "homepage": "https://github.com/estebanborai/fcc-personal-portfolio#readme",
+  "homepage": "https://github.com/gitpullsh/fcc-personal-portfolio#readme",
   "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-preset-env": "^1.7.0",
