@@ -37,7 +37,7 @@ const createProjectLanguage = lang => {
 };
 
 $(document).ready(() => {
-  fetch('https://api.github.com/users/gitpullsh/repos')
+  fetch('https://api.github.com/users/estebanborai/repos')
   .then(res => res.json())
   .then(json => json.filter(repo => {
     if (repo.name.indexOf('fcc') !== -1 && repo.language) {
